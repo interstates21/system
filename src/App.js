@@ -25,7 +25,7 @@ const App = () => {
       <CodeExamples />
       <Test1 />
       <Test2 />
-      <Test2 />
+      <Test3 />
     </div>
   );
 };

@@ -1,11 +1,10 @@
 import React from 'react';
 import classes from './classes.module.css';
-import MyAvatarGen from '../../components/MyAvatarGen';
+import MyChatBot from '../../components/MyChatBot';
 const AboutMe = () => {
   return (
     <div className={classes.container}>
-      <div className="simple-block margin">fdgfdgfdgdfLoremgfdgdfgdf</div>
-      <MyAvatarGen />
+      <MyChatBot />
     </div>
   );
 };

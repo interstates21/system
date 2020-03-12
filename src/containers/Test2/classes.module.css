@@ -2,6 +2,9 @@
   width: 100vw;
   display: flex;
   flex-direction: row;
+  background: aqua;
   align-items: center;
   justify-content: center;
 }
+
+/* 2F2F2F */
