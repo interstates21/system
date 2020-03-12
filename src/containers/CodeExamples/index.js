@@ -5,7 +5,9 @@ import MyCode from '../../components/MyCode';
 import classes from './classes.module.css';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
-import Slider from 'react-slick';
+import Slider from 'react-slick'
+import AwesomeSlider from 'react-awesome-slider';
+import 'react-awesome-slider/dist/styles.css';
 
 const jsExample = `
 import React, {useState, useEffect, useCallback} from 'react';
@@ -509,13 +511,13 @@ const settings = {
 const Skills = () => {
   return (
     <div className={classes.container}>
-      <Slider className={classes.slider} {...settings}>
+      <AwesomeSlider className={classes.slider}>
         <MyCode title="React Native" value={jsExample} type="javascript" />
         <MyCode title="C Gaphics" value={cExample} type="c_cpp" />
         <MyCode title="Node" value={nodeExample} type="javascript" />
         <MyCode title="Redux Saga" value={sagaExample} type="javascript" />
         {/* <MyToolchain /> */}
-      </Slider>
+      </AwesomeSlider>
     </div>
   );
 };

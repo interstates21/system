@@ -13,10 +13,14 @@
     "@testing-library/user-event": "^7.2.1",
     "react": "^16.13.0",
     "react-ace": "^8.0.0",
+    "react-avatar-generator": "^1.0.3",
+    "react-awesome-slider": "^4.1.0",
     "react-dom": "^16.13.0",
     "react-pdf": "^4.1.0",
     "react-scripts": "3.4.0",
     "react-slick": "^0.25.2",
+    "react-sparklines": "^1.7.0",
+    "react-vertical-timeline-component": "^2.5.0",
     "slick-carousel": "^1.8.1"
   },
   "scripts": {

@@ -1,0 +1,12 @@
+.item {
+    display: flex;
+    flex: 1;
+    width: 50px;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .icon {
+    font-size: 3rem;
+  }
+  

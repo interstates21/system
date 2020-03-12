@@ -10,6 +10,9 @@ import Overview from './containers/Overview';
 import Skills from './containers/Skills';
 import CodeExamples from './containers/CodeExamples';
 import AboutMe from './containers/AboutMe';
+import Test1 from './containers/Test1';
+import Test2 from './containers/Test2';
+import Test3 from './containers/Test3';
 
 library.add(fab, faMobileAlt, faAngleDoubleDown);
 
@@ -20,6 +23,9 @@ const App = () => {
       <Skills />
       <AboutMe />
       <CodeExamples />
+      <Test1 />
+      <Test2 />
+      <Test2 />
     </div>
   );
 };
