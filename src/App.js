@@ -8,7 +8,7 @@ import {
 } from '@fortawesome/free-solid-svg-icons';
 import Overview from './containers/Overview';
 import Skills from './containers/Skills';
-import Code from './containers/Code';
+import CodeExamples from './containers/CodeExamples';
 
 library.add(fab, faMobileAlt, faAngleDoubleDown);
 
@@ -17,7 +17,7 @@ const App = () => {
     <div className="App">
       <Overview />
       <Skills />
-      <Code />
+      <CodeExamples />
     </div>
   );
 };

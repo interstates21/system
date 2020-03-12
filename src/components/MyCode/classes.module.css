@@ -1,0 +1,14 @@
+.codeBlock {
+  height: 30%;
+  width: 500px;
+  background: aqua;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.title {
+  color: white;
+}
