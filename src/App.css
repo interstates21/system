@@ -1,0 +1,72 @@
+.App {
+  text-align: center;
+  width: max-content;
+  width: 100vw;
+  /* height: 100vh; */
+  /* background: aqua; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-x: scroll;
+  justify-content: center;
+  /* padding-left: 100px; */
+}
+
+h1 {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 400;
+  font-size: 2.5rem;
+  margin-bottom: 5px;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1rem;
+}
+
+.title {
+  color: #333;
+}
+
+/* .simple-container {
+  width: 60%;
+  text-align: center;
+  margin: auto;
+} */
+
+.simple-block {
+  width: 600px;
+  text-align: left;
+  padding: 10px;
+}
+
+.margin {
+  margin: 100px;
+}
+
+.simple-text {
+  width: 100%;
+}
+
+.screen {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.half-screen {
+  width: 50vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
