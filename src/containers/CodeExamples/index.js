@@ -3,6 +3,9 @@ import MyToolchain from '../../components/MyToolchain';
 
 import MyCode from '../../components/MyCode';
 import classes from './classes.module.css';
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
+import Slider from 'react-slick';
 
 const jsExample = `
 import React, {useState, useEffect, useCallback} from 'react';
@@ -495,14 +498,24 @@ export default function* createTemplateAsync(action) {
 }
 `;
 
+const settings = {
+  dots: true,
+  infinite: false,
+  speed: 500,
+  slidesToShow: 2,
+  slidesToScroll: 1,
+};
+
 const Skills = () => {
   return (
     <div className={classes.container}>
-      {/* <MyToolchain /> */}
-      <MyCode title="React Native" value={jsExample} type="javascript" />
-      <MyCode title="C Gaphics" value={cExample} type="c_cpp" />
-      <MyCode title="Node" value={nodeExample} type="javascript" />
-      <MyCode title="Redux Saga" value={sagaExample} type="javascript" />
+      <Slider className={classes.slider} {...settings}>
+        <MyCode title="React Native" value={jsExample} type="javascript" />
+        <MyCode title="C Gaphics" value={cExample} type="c_cpp" />
+        <MyCode title="Node" value={nodeExample} type="javascript" />
+        <MyCode title="Redux Saga" value={sagaExample} type="javascript" />
+        {/* <MyToolchain /> */}
+      </Slider>
     </div>
   );
 };

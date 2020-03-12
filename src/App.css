@@ -7,9 +7,13 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  overflow-x: scroll;
+  overflow-x: hidden;
   justify-content: center;
   /* padding-left: 100px; */
+}
+
+.root {
+  overflow-x: hidden;
 }
 
 h1,

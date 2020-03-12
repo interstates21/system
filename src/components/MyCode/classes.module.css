@@ -1,13 +1,13 @@
 .codeBlock {
-  height: 30%;
-  /* width: 500px; */
-  background: aqua;
+  border-radius: 3px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  align-self: center;
   justify-content: center;
   padding: 1rem;
   margin: 40px;
+  height: 100%;
 }
 
 .title {
@@ -16,4 +16,11 @@
   font-weight: 300;
   font-size: 1.5rem;
   margin: 10px;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
 }

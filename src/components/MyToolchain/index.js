@@ -9,7 +9,7 @@ const MyToolchain = () => {
         <Icon className={classes.icon} icon={['fab', 'js']} />
       </div>
       <div className={classes.item}>
-        <Icon className={classes.icon} icon={['fab', 'react']} />
+        <Icon c lassName={classes.icon} icon={['fab', 'react']} />
       </div>
       <div className={classes.item}>
         <Icon className={classes.icon} icon={['fab', 'node']} />
