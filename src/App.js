@@ -9,6 +9,7 @@ import {
 import Overview from './containers/Overview';
 import Skills from './containers/Skills';
 import CodeExamples from './containers/CodeExamples';
+import AboutMe from './containers/AboutMe';
 
 library.add(fab, faMobileAlt, faAngleDoubleDown);
 
@@ -17,6 +18,7 @@ const App = () => {
     <div className="App">
       <Overview />
       <Skills />
+      <AboutMe />
       <CodeExamples />
     </div>
   );

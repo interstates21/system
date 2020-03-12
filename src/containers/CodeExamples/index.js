@@ -499,18 +499,10 @@ const Skills = () => {
   return (
     <div className={classes.container}>
       {/* <MyToolchain /> */}
-      <MyCode
-        title="React Native Example"
-        value={jsExample}
-        type="javascript"
-      />
-      <MyCode title="C Example" value={cExample} type="c_cpp" />
-      <MyCode title="Node Example" value={nodeExample} type="javascript" />
-      <MyCode
-        title="Redux Saga Example"
-        value={sagaExample}
-        type="javascript"
-      />
+      <MyCode title="React Native" value={jsExample} type="javascript" />
+      <MyCode title="C Gaphics" value={cExample} type="c_cpp" />
+      <MyCode title="Node" value={nodeExample} type="javascript" />
+      <MyCode title="Redux Saga" value={sagaExample} type="javascript" />
     </div>
   );
 };

@@ -1,14 +1,19 @@
 .codeBlock {
   height: 30%;
-  width: 500px;
+  /* width: 500px; */
   background: aqua;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
   padding: 1rem;
+  margin: 40px;
 }
 
 .title {
-  color: white;
+  display: flex;
+  color: #444;
+  font-weight: 300;
+  font-size: 1.5rem;
+  margin: 10px;
 }
