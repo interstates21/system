@@ -1,6 +1,7 @@
+@import '../../variables.css';
 .container {
   width: 100vw;
-  height: 100vh;
+  /* height: 100vh; */
   /* display: flex; */
   /* padding-top: 150px; */
   /* padding-bottom: 150px; */
@@ -8,13 +9,18 @@
   /* align-items: center; */
   /* overflow-x: scroll; */
   /* justify-content: center; */
-  background: aqua;
+  /* background: var(--blue1991b); */
 }
-
+/* 
 .slider {
   height: 80%;
   display: flex;
   margin-bottom: 20px;
   align-items: center;
   justify-content: center;
+} */
+
+.slide {
+  width: 100%;
+  /* height: 70%; */
 }

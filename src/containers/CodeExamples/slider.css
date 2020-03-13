@@ -1,0 +1,9 @@
+@import '../../variables.css';
+.awssld {
+  --organic-arrow-color: white !important;
+  /* --slider-height-percentage: 70% !important; */
+  --organic-arrow-height: 25px !important;
+  --content-background-color: #617ce3 !important;
+  --control-bullet-active-color: var(--blue1991b) !important;
+  --control-bullet-color: var(--blue1991c) !important;
+}

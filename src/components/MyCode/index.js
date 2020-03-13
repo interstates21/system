@@ -6,6 +6,8 @@ import 'ace-builds/src-noconflict/mode-c_cpp';
 import 'ace-builds/src-noconflict/theme-github';
 import classes from './classes.module.css';
 import useWindowSize from '../../hooks/useWindowSize';
+import Prism from 'prismjs';
+import 'prismjs/components/prism-javascript';
 
 const Code = ({ value, type, title = 'Code Example' }) => {
   const size = useWindowSize();

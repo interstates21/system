@@ -6,11 +6,13 @@ import {
   SparklinesLine,
 } from 'react-sparklines';
 
+import { Waypoint } from 'react-waypoint';
+
 function getRandomInt(max) {
   return Math.floor(Math.random() * Math.floor(max));
 }
 
-const useDynamicData = () => {
+const MySpark = () => {
   const [data, setData] = useState([
     3,
     5,
@@ -31,7 +33,12 @@ const useDynamicData = () => {
     20,
   ]);
 
+  const [way, setWay] = useState(false);
+
   useEffect(() => {
+    if (!way) {
+      return;
+    }
     const interval = setInterval(() => {
       setData(p => {
         let n = [...p];
@@ -41,14 +48,11 @@ const useDynamicData = () => {
       });
     }, 100);
     return () => clearInterval(interval);
-  }, []);
+  }, [way]);
 
-  return data;
-};
-const MySpark = () => {
-  const data = useDynamicData();
   return (
     <div style={{ width: 300, height: 40 }}>
+      <Waypoint onEnter={() => setWay(true)} onLeave={() => setWay(false)} />
       <Sparklines data={data}>
         <SparklinesBars style={{ fill: '#41c3f9' }} />
       </Sparklines>

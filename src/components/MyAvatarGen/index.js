@@ -15,7 +15,7 @@ const CustomAvatarGenerator = () => {
     <div className="simple-block" onClick={randomize}>
       <AvatarGenerator
         ref={ref}
-        colors={['aliceblue', 'yellow', 'aqua']}
+        colors={['aliceblue', 'yellow', '#617CE3']}
         backgroundColor="#fff"
       />
     </div>
