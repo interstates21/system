@@ -19,7 +19,6 @@
     "react-avatar-generator": "^1.0.3",
     "react-awesome-slider": "^4.1.0",
     "react-dom": "^16.13.0",
-    "react-mindmap": "^2.1.6",
     "react-pdf": "^4.1.0",
     "react-scripts": "3.4.0",
     "react-simple-chatbot": "^0.6.1",
@@ -29,7 +28,8 @@
     "react-vertical-timeline-component": "^2.5.0",
     "react-waypoint": "^9.0.2",
     "slick-carousel": "^1.8.1",
-    "styled-components": "^5.0.1"
+    "styled-components": "^5.0.1",
+    "three": "^0.114.0"
   },
   "scripts": {
     "start": "react-scripts start",

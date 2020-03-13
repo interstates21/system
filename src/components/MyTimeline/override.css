@@ -1,0 +1,20 @@
+@import '../../variables.css';
+.vertical-timeline-element-subtitle {
+  /* color: var(--black1991a) !important; */
+}
+
+.vertical-timeline-element-date {
+  color: white !important;
+  opacity: 0.9 !important;
+}
+
+.vertical-timeline-element {
+  text-align: left !important;
+}
+
+@media only screen and (max-width: 1169px) {
+  .vertical-timeline-element-date {
+    color: #a4a4a4 !important;
+    opacity: 0.6 !important;
+  }
+}

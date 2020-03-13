@@ -1,12 +1,8 @@
 .container {
   width: 100vw;
-  padding-bottom: 50px;
-  padding-top: 50px;
+  height: 100vh;
   display: flex;
   flex-direction: row;
-  background: #617ce3;
   align-items: center;
   justify-content: center;
 }
-
-/* 2F2F2F */
