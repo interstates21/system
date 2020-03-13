@@ -13,12 +13,14 @@ import AboutMe from './containers/AboutMe';
 import Test1 from './containers/Test1';
 import Test2 from './containers/Test2';
 import Test3 from './containers/Test3';
+import MySpinner from './components/MySpinner';
 
 library.add(fab, faMobileAlt, faAngleDoubleDown);
 
 const App = () => {
   return (
     <div className="App">
+      <MySpinner />
       <Overview />
       <Skills />
       <AboutMe />
