@@ -22,14 +22,14 @@ library.add(fab, faGraduationCap, faMobileAlt, faAngleDoubleDown);
 const App = () => {
   return (
     <div className="App">
-      {/* <Three /> */}
       <Overview />
-      <Skills />
-      <AboutMe />
-      <CodeExamples />
-      <Test1 />
       <Test2 />
-      <Test3 />
+      <Skills />
+      <CodeExamples />
+      {/* <AboutMe /> */}
+      {/* <Test3 /> */}
+      {/* <Test1 /> */}
+      {/* <Three /> */}
     </div>
   );
 };

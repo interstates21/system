@@ -9,7 +9,6 @@ class Playground extends Component {
     this.sceneSetup();
     this.addCustomSceneObjects();
     this.startAnimationLoop();
-    // this.listenMouseEvents();
     window.addEventListener('resize', this.handleWindowResize);
     // window.addEventListener('mousemove', this.onMouseMove, false);
   }
@@ -50,26 +49,26 @@ class Playground extends Component {
     this.camera.updateProjectionMatrix();
   };
 
-//   clickEvent = () => {
-//     var mouseX = e.clientX - getElementPosition(renderer.domElement).left;
-//     var mouseY = e.clientY - getElementPosition(renderer.domElement).top;
-//     var x = (mouseX / renderer.domElement.width) * 2 - 1;
-//     var y = -(mouseY / renderer.domElement.height) * 2 + 1;
-//     var vector = new THREE.Vector3(x, y, 1);
-//     projector.unprojectVector(vector, camera);
+  //   clickEvent = () => {
+  //     var mouseX = e.clientX - getElementPosition(renderer.domElement).left;
+  //     var mouseY = e.clientY - getElementPosition(renderer.domElement).top;
+  //     var x = (mouseX / renderer.domElement.width) * 2 - 1;
+  //     var y = -(mouseY / renderer.domElement.height) * 2 + 1;
+  //     var vector = new THREE.Vector3(x, y, 1);
+  //     projector.unprojectVector(vector, camera);
 
-//     var ray = new THREE.Ray(
-//       camera.position,
-//       vector.subSelf(camera.position).normalize()
-//     );
-//     var intersects = ray.intersectObjects(meshArray);
+  //     var ray = new THREE.Ray(
+  //       camera.position,
+  //       vector.subSelf(camera.position).normalize()
+  //     );
+  //     var intersects = ray.intersectObjects(meshArray);
 
-//     if (intersects.length > 0) {
-//       console.log(intersects[0].object);
-//       var color = Math.random() * 0xffffff;
-//       intersects[0].object.material.color.setHex(color);
-//     }
-//   };
+  //     if (intersects.length > 0) {
+  //       console.log(intersects[0].object);
+  //       var color = Math.random() * 0xffffff;
+  //       intersects[0].object.material.color.setHex(color);
+  //     }
+  //   };
 
   sceneSetup = () => {
     // get container dimensions and use them for scene sizing
@@ -93,20 +92,16 @@ class Playground extends Component {
   };
 
   addCustomSceneObjects = () => {
-    // const boxGeometry = new THREE.BoxGeometry(8, 2, 10);
-    var sphereGeometry = new THREE.SphereGeometry(8, 8, 8);
-    // const material = new THREE.MeshPhongMaterial({
-    //   color: 0x156289,
-    //   emissive: 0x072534,
-    //   side: THREE.DoubleSide,
-    //   flatShading: true,
-    // });
-    var material = new THREE.MeshBasicMaterial({
-      color: 0xffffff,
-      wireframeLinecap: true,
-      //   wireframe: true,
+    const boxGeometry = new THREE.BoxGeometry(8, 10, 10);
+    // var sphereGeometry = new THREE.SphereGeometry(8, 8, 8);
+    const material = new THREE.MeshPhongMaterial({
+      color: 0x156289,
+      emissive: 0x072534,
+      side: THREE.DoubleSide,
+      flatShading: true,
     });
-    this.cube = new THREE.Mesh(sphereGeometry, material);
+
+    this.cube = new THREE.Mesh(boxGeometry, material);
     this.scene.add(this.cube);
 
     const lights = [];

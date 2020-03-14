@@ -25,10 +25,10 @@ const MyTimeline = () => {
         </h3>
         <h4 className="vertical-timeline-element-subtitle">Cartitude Team</h4>
         <p className={classes.descriptionWhite}>
-          - Building 3 applications from scratch <br />
+          - Building and deploying 3 applications from scratch <br />
           - Managing a team of 2 frontend + 1 backend developers
           <br />
-          - Making a research about the most effective UX and Tools <br />
+          - Managing tools and architecture <br />
         </p>
       </VerticalTimelineElement>
       <VerticalTimelineElement
@@ -68,7 +68,7 @@ const MyTimeline = () => {
       </VerticalTimelineElement>
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
-        date="February 2019 - June 2019"
+        date="January 2019 - June 2019"
         iconStyle={{ background: '#617ce3', color: '#fff' }}
         icon={<Icon className={classes.icon} icon={['fab', 'react']} />}
       >
