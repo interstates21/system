@@ -2,6 +2,8 @@
   text-align: center;
   width: max-content;
   width: 100vw;
+  padding-bottom: 50px !important;
+
   /* height: 100vh; */
   /* background: #617CE3; */
   display: flex;
@@ -50,7 +52,7 @@ p {
 .simple-block {
   width: 600px;
   text-align: left;
-  padding: 10px;
+  padding: 20px;
 }
 
 .margin {
@@ -58,7 +60,7 @@ p {
 }
 
 .simple-text {
-  width: 100%;
+  width: 80%;
 }
 
 .screen {
@@ -84,3 +86,7 @@ p {
   flex-direction: row;
 }
 
+.section-title {
+  font-size: 3rem;
+  color: #a4a4a4;
+}

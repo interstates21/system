@@ -6,7 +6,7 @@ import { PDFViewer, PDFDownloadLink } from '@react-pdf/renderer';
 import MyDocument from './MyDocument';
 
 const Skills = () => {
-  const [open, setOpen] = useState(true);
+  const [open, setOpen] = useState(false);
 
   return (
     <div className={classes.screen}>

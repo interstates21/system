@@ -44,30 +44,48 @@ const PDFComponent = () => (
       </View>
       <View style={styles.main}>
         <Text style={styles.centeredTitle}>Core Qualification</Text>
-        <Text style={styles.qualification}>
-          Language >>> JS, ES6, TypeScript
-        </Text>
-        <Text style={styles.qualification}>
-          React >>> Hooks, Design Patterns, React Native, Web / Mobile
-          Deployment
-        </Text>
-        <Text style={styles.qualification}>Redux >>> Saga, Thunk</Text>
-        <Text style={styles.qualification}>
-          Node >>> Express, Socket.io, OOP, MongoDB
-        </Text>
-        <Text style={styles.qualification}>
-          Other >>> C/C++, Computer Graphics, UNITY, Basic Webpack, THREE.js,
-          axios
-        </Text>
-        <Text style={styles.qualification}>
-          Styling >>> Styled Components, CSS modules, StyleSheet
-        </Text>
-        <Text style={styles.qualification}>
-          Tools >>> VSCode, Git, SSH, Bash, Postman, Docker, Figma, Trello
-        </Text>
-        <Text style={styles.qualification}>English >>> Advanced</Text>
+        <View style={styles.qualification}>
+          <Text style={styles.qualKey}>Language</Text>
+          <Text style={styles.qualVal}> JS, ES6, TypeScript</Text>
+        </View>
+        <View style={styles.qualification}>
+          <Text style={styles.qualKey}>React</Text>
+          <Text style={styles.qualVal}>
+            Hooks, Design Patterns, React Native, Web / Mobile Deployment
+          </Text>
+        </View>
+        <View style={styles.qualification}>
+          <Text style={styles.qualKey}>Redux</Text>
+          <Text style={styles.qualVal}>Saga, Thunk, Persist</Text>
+        </View>
+        <View style={styles.qualification}>
+          <Text style={styles.qualKey}>Node</Text>
+          <Text style={styles.qualVal}>Express, Socket.io, OOP, MongoDB</Text>
+        </View>
+        <View style={styles.qualification}>
+          <Text style={styles.qualKey}>Other</Text>
+          <Text style={styles.qualVal}>
+            C/C++, Computer Graphics, UNITY, Basic Webpack, THREE.js, axios
+          </Text>
+        </View>
+        <View style={styles.qualification}>
+          <Text style={styles.qualKey}>Styling</Text>
+          <Text style={styles.qualVal}>
+            Styled Components, CSS modules, StyleSheet C/C++, Computer Graphics,
+            UNITY, Basic Webpack, THREE.js, axios
+          </Text>
+        </View>
+        <View style={styles.qualification}>
+          <Text style={styles.qualKey}>Tools</Text>
+          <Text style={styles.qualVal}>
+            VSCode, Git, SSH, Bash, Postman, Docker, Figma, Trello
+          </Text>
+        </View>
+        <View style={styles.qualification}>
+          <Text style={styles.qualKey}>English</Text>
+          <Text style={styles.qualVal}>Advanced</Text>
+        </View>
         <Text style={styles.centeredTitle}>Experience</Text>
-
         <View style={styles.experience}>
           <View style={styles.colHalf}>
             <Text style={styles.jobCompany}>Cartitude Team</Text>
@@ -173,6 +191,15 @@ const styles = StyleSheet.create({
     justifyContent: 'space-between',
     alignItems: 'center',
   },
+  qualKey: {
+    textAlign: 'left',
+    flex: 0.2,
+    color: '#ccc',
+  },
+  qualVal: {
+    // textAlign: 'left',
+    flex: 1,
+  },
   main: {},
   title: {
     // color: 'grey',
@@ -182,7 +209,7 @@ const styles = StyleSheet.create({
   qualification: {
     fontSize: 11,
     marginBottom: 5,
-    textAlign: 'left',
+    flexDirection: 'row',
   },
   centeredTitle: {
     fontSize: 14,

@@ -95,7 +95,7 @@ class Playground extends Component {
     const boxGeometry = new THREE.BoxGeometry(8, 10, 10);
     // var sphereGeometry = new THREE.SphereGeometry(8, 8, 8);
     const material = new THREE.MeshPhongMaterial({
-      color: 0x156289,
+      color: 'yellow',
       emissive: 0x072534,
       side: THREE.DoubleSide,
       flatShading: true,
@@ -119,7 +119,7 @@ class Playground extends Component {
   };
 
   startAnimationLoop = () => {
-    // this.cube.rotation.x += 0.01;
+    this.cube.rotation.x += 0.01;
     this.cube.rotation.y += 0.01;
 
     this.renderer.render(this.scene, this.camera);

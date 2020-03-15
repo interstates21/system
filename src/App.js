@@ -8,13 +8,13 @@ import {
   faGraduationCap,
 } from '@fortawesome/free-solid-svg-icons';
 import Overview from './containers/Overview';
-import Skills from './containers/Skills';
+import CV from './containers/CV';
 import CodeExamples from './containers/CodeExamples';
 import AboutMe from './containers/AboutMe';
 import Test1 from './containers/Test1';
 import Test2 from './containers/Test2';
 import Three from './containers/Three';
-import Test3 from './containers/Test3';
+import MindMap from './containers/MindMap';
 import MySpinner from './components/MySpinner';
 
 library.add(fab, faGraduationCap, faMobileAlt, faAngleDoubleDown);
@@ -24,12 +24,12 @@ const App = () => {
     <div className="App">
       <Overview />
       <Test2 />
-      <Skills />
-      <CodeExamples />
-      {/* <AboutMe /> */}
+      <CV />
+      <AboutMe />
+      <MindMap />
       {/* <Test3 /> */}
       {/* <Test1 /> */}
-      {/* <Three /> */}
+      <Three />
     </div>
   );
 };

@@ -1,4 +1,4 @@
-import React, { useRef } from 'react';
+import React, { useRef, useEffect } from 'react';
 import AvatarGenerator from 'react-avatar-generator';
 
 const CustomAvatarGenerator = () => {
@@ -11,8 +11,13 @@ const CustomAvatarGenerator = () => {
     ref.current.randomize();
   };
 
+  useEffect(() => {
+    const interval = setInterval(randomize, 1000);
+
+    return () => clearInterval(interval);
+  }, [ref]);
   return (
-    <div className="simple-block" onClick={randomize}>
+    <div className="simple-block">
       <AvatarGenerator
         ref={ref}
         colors={['aliceblue', 'yellow', '#617CE3']}
