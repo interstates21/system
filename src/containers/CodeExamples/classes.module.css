@@ -1,6 +1,7 @@
 @import '../../variables.css';
 .container {
   width: 70vw;
+  margin-top: 50px;
   height: 100vh;
   /* display: flex; */
   /* padding-top: 150px; */

@@ -8,9 +8,9 @@ class Example extends Component {
     const nodes = document.querySelectorAll('.mindmap-node > a');
     nodes.forEach(n => {
       // let randomColor = Math.floor(Math.random() * 16777215).toString(16);
-      let r = Math.floor(Math.random() * 220);
-      let g = Math.floor(Math.random() * 220);
-      let b = Math.floor(Math.random() * 220);
+      let r = Math.floor(Math.random() * 240);
+      let g = Math.floor(Math.random() * 240);
+      let b = Math.floor(Math.random() * 240);
       n.style.background = `rgb(${r}, ${g}, ${b})`;
     });
   }
@@ -19,12 +19,12 @@ class Example extends Component {
     return (
       <div
         style={{
-          height: '100vh',
-          width: '100%',
+          // height: '70vh',
+          // width: '70vw',
           backgroundColor: 'white',
-          display: 'flex',
-          alignItems: 'center',
-          justifyContent: 'center',
+          // display: 'flex',
+          // alignItems: 'center',
+          // justifyContent: 'center',
         }}
       >
         {/* <h2 className="section-title"> Highlights </h2> */}
@@ -33,12 +33,13 @@ class Example extends Component {
             // alignItems: 'center',
             // justifyContent: 'center',
             // display: 'flex',
-            backgroundColor: '#292C35',
-            width: '70%',
-            overflow: 'hidden',
-            padding: '40px',
+            backgroundColor: 'white',
+            // width: '70%',
+            margin: 20,
+            // overflow: 'hidden',
+            padding: 20,
+            background: 'aliceblue',
             boxSizing: 'border-box',
-            marginBottom: 100,
           }}
         >
           <MindMap nodes={map.nodes} connections={map.connections} />

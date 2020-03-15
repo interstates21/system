@@ -4,6 +4,11 @@ body {
   margin: 0;
   font-family: 'Open Sans', sans-serif;
   overflow-x: hidden;
+  background-color: #2d2f36 !important;
+}
+
+.root {
+  background-color: #2d2f36;
 }
 
 code {

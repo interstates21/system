@@ -16,6 +16,15 @@
 
 .button {
   margin: 10px !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon {
+  justify-self: center;
+  font-size: 1.4rem;
+  padding-right: 5px;
 }
 
 .data {

@@ -1,44 +1,48 @@
 import React from 'react';
 import classes from './classes.module.css';
-import { AwesomeButtonSocial } from 'react-awesome-button';
+import { AwesomeButton } from 'react-awesome-button';
 import AwesomeButtonStyles from 'react-awesome-button/src/styles/styles.scss';
+import { FontAwesomeIcon as Icon } from '@fortawesome/react-fontawesome';
 
 const ContactMe = () => {
   return (
     <div className={classes.container}>
       <div className={classes.buttons}>
-        <AwesomeButtonSocial
+        <AwesomeButton
           className={classes.button}
           cssModule={AwesomeButtonStyles}
           type="facebook"
-          url="https://www.facebook.com/profile.php?id=100002359261444"
+          href="https://www.facebook.com/profile.php?id=100002359261444"
         >
-          Check Profile
-        </AwesomeButtonSocial>
-        <AwesomeButtonSocial
+          <Icon className={classes.icon} icon={['fab', 'facebook']} /> Check
+          Profile
+        </AwesomeButton>
+        <AwesomeButton
           className={classes.button}
           cssModule={AwesomeButtonStyles}
           type="instagram"
-          url="https://www.instagram.com/alexsuperghost/"
+          href="https://www.instagram.com/alexsuperghost/"
         >
-          Check Pictures
-        </AwesomeButtonSocial>
-        <AwesomeButtonSocial
+          <Icon className={classes.icon} icon={['fab', 'instagram']} /> Check
+          Pictures
+        </AwesomeButton>
+        <AwesomeButton
           className={classes.button}
           cssModule={AwesomeButtonStyles}
           type="github"
-          url="https://github.com/interstates21/"
+          href="https://github.com/interstates21/"
         >
-          Check Code
-        </AwesomeButtonSocial>
-        <AwesomeButtonSocial
+          <Icon className={classes.icon} icon={['fab', 'github']} /> Check Code
+        </AwesomeButton>
+        <AwesomeButton
           className={classes.button}
           cssModule={AwesomeButtonStyles}
           type="linkedin"
-          url="https://linkedin.com/in/oleksii-kupin-188b05154"
+          href="https://linkedin.com/in/oleksii-kupin-188b05154"
         >
-          Check Career
-        </AwesomeButtonSocial>
+          <Icon className={classes.icon} icon={['fab', 'linkedin']} /> Check
+          Career
+        </AwesomeButton>
       </div>
       <p className={classes.data}>interstates21@gmail.com</p>
       <p className={classes.data}>+38 (063) 581-61-21</p>
