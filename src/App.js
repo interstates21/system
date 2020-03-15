@@ -13,7 +13,7 @@ import CodeExamples from './containers/CodeExamples';
 import AboutMe from './containers/AboutMe';
 import Test1 from './containers/Test1';
 import Test2 from './containers/Test2';
-import Three from './containers/Three';
+// import Three from './containers/Three';
 import MindMap from './containers/MindMap';
 import ContactMe from './containers/ContactMe';
 import MySpinner from './components/MySpinner';

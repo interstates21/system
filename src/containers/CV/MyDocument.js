@@ -212,10 +212,10 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
   },
   centeredTitle: {
-    fontSize: 14,
+    fontSize: 18,
     marginTop: 25,
     marginBottom: 15,
-    color: '#ccc',
+    color: '#d8d8d8',
     textAlign: 'center',
   },
   headerTitle: {
