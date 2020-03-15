@@ -11,6 +11,7 @@ const ContactMe = () => {
         <AwesomeButton
           className={classes.button}
           cssModule={AwesomeButtonStyles}
+          size="large"
           type="facebook"
           href="https://www.facebook.com/profile.php?id=100002359261444"
         >
@@ -21,6 +22,7 @@ const ContactMe = () => {
           className={classes.button}
           cssModule={AwesomeButtonStyles}
           type="instagram"
+          size="large"
           href="https://www.instagram.com/alexsuperghost/"
         >
           <Icon className={classes.icon} icon={['fab', 'instagram']} /> Check
@@ -30,6 +32,7 @@ const ContactMe = () => {
           className={classes.button}
           cssModule={AwesomeButtonStyles}
           type="github"
+          size="large"
           href="https://github.com/interstates21/"
         >
           <Icon className={classes.icon} icon={['fab', 'github']} /> Check Code
@@ -38,6 +41,7 @@ const ContactMe = () => {
           className={classes.button}
           cssModule={AwesomeButtonStyles}
           type="linkedin"
+          size="large"
           href="https://linkedin.com/in/oleksii-kupin-188b05154"
         >
           <Icon className={classes.icon} icon={['fab', 'linkedin']} /> Check
