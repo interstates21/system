@@ -212,7 +212,7 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
   },
   centeredTitle: {
-    fontSize: 18,
+    fontSize: 13,
     marginTop: 25,
     marginBottom: 15,
     color: '#d8d8d8',
