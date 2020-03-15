@@ -1,7 +1,7 @@
 @import '../../variables.css';
 .awssld {
   /* --organic-arrow-color: #7c90df !important; */
-  --organic-arrow-color: #ccc !important;
+  --organic-arrow-color: #d4d4d4 !important;
   /* --organic-arrow-color: white !important; */
   /* --slider-height-percentage: 70% !important; */
   --organic-arrow-height: 25px !important;
