@@ -7,6 +7,10 @@ body {
   background-color: #2d2f36 !important;
 }
 
+.mindmap-node a {
+  font-family: 'Open Sans', sans-serif !important;
+}
+
 .root {
   background-color: #2d2f36;
 }
