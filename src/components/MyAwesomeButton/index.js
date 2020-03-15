@@ -1,5 +1,5 @@
 import { AwesomeButton } from 'react-awesome-button';
-import '../react-awesome-button/dist/styles.css';
+import 'react-awesome-button/dist/styles.css';
 // import 'react-awesome-button/dist/themes/theme-red.css';
 import React from 'react';
 
