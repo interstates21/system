@@ -1,9 +1,14 @@
 @import '../../variables.css';
 .awssld {
-  --organic-arrow-color: white !important;
+  /* --organic-arrow-color: #7c90df !important; */
+  --organic-arrow-color: #ccc !important;
+  /* --organic-arrow-color: white !important; */
   /* --slider-height-percentage: 70% !important; */
   --organic-arrow-height: 25px !important;
   --content-background-color: #617ce3 !important;
-  --control-bullet-active-color: var(--blue1991b) !important;
-  --control-bullet-color: var(--blue1991c) !important;
+  --content-background-color: aliceblue !important;
+  /* --control-bullet-active-color: var(--blue1991b) !important; */
+  --control-bullet-active-color: #d1d1d1 !important;
+  --control-bullet-color: #eee !important;
+  /* --control-bullet-color: var(--blue1991c) !important; */
 }

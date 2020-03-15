@@ -31,6 +31,7 @@ const App = () => {
       {/* <Test3 /> */}
       {/* <Test1 /> */}
       {/* <Three /> */}
+      <CodeExamples />
       <ContactMe />
     </div>
   );
