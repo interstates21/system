@@ -71,8 +71,7 @@ const PDFComponent = () => (
         <View style={styles.qualification}>
           <Text style={styles.qualKey}>Styling</Text>
           <Text style={styles.qualVal}>
-            Styled Components, CSS modules, StyleSheet C/C++, Computer Graphics,
-            UNITY, Basic Webpack, THREE.js, axios
+            Styled Components, CSS modules, StyleSheet
           </Text>
         </View>
         <View style={styles.qualification}>
