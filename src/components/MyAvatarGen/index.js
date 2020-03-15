@@ -12,7 +12,7 @@ const CustomAvatarGenerator = () => {
   };
 
   useEffect(() => {
-    const interval = setInterval(randomize, 1000);
+    const interval = setInterval(randomize, 2000);
 
     return () => clearInterval(interval);
   }, [ref]);

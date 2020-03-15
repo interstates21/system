@@ -1,0 +1,26 @@
+.container {
+  background-color: #2c2f36;
+  height: 30vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 50px;
+}
+
+.buttons {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.button {
+  margin: 10px !important;
+}
+
+.data {
+  font-size: 1rem;
+  color: #ccc;
+  font-weight: 400;
+  margin: 5px;
+}

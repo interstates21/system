@@ -15,6 +15,7 @@ import Test1 from './containers/Test1';
 import Test2 from './containers/Test2';
 import Three from './containers/Three';
 import MindMap from './containers/MindMap';
+import ContactMe from './containers/ContactMe';
 import MySpinner from './components/MySpinner';
 
 library.add(fab, faGraduationCap, faMobileAlt, faAngleDoubleDown);
@@ -29,7 +30,8 @@ const App = () => {
       <MindMap />
       {/* <Test3 /> */}
       {/* <Test1 /> */}
-      <Three />
+      {/* <Three /> */}
+      <ContactMe />
     </div>
   );
 };
