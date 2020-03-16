@@ -50,9 +50,11 @@ p {
 } */
 
 .simple-block {
-  width: 600px;
-  text-align: left;
-  padding: 20px;
+  /* width: 600px; */
+  text-align: center;
+  margin: 15px;
+  display: flex;
+  flex-direction: column;
 }
 
 .margin {
@@ -60,7 +62,6 @@ p {
 }
 
 .simple-text {
-  width: 80%;
 }
 
 .screen {

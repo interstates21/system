@@ -19,11 +19,13 @@ import MindMap from './containers/MindMap';
 import ContactMe from './containers/ContactMe';
 import MySpinner from './components/MySpinner';
 import MyAwesomeButton from './components/MyAwesomeButton';
+import useWindowSize from './hooks/useWindowSize';
 
 library.add(fab, faGraduationCap, faMobileAlt, faAngleDoubleDown);
 
 const App = () => {
   const [modal, toggleModal] = useModali({ animated: true, large: true });
+  const size = useWindowSize();
   return (
     <div className="App">
       <Overview />
@@ -41,7 +43,7 @@ const App = () => {
       {/* <Test3 /> */}
       {/* <Test1 /> */}
       {/* <Three /> */}
-      <CodeExamples />
+      {size.width > 1000 && <CodeExamples />}
       <ContactMe />
     </div>
   );

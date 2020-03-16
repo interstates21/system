@@ -5,10 +5,10 @@ import classes from './classes.module.css';
 const Overview = () => {
   return (
     <div className={classes.container}>
-      <div className="simple-block margin">
-        <h1 className="title">React Frontend Developer</h1>
+      <div className={classes.block}>
+        <h1 className={classes.title}>React Frontend Developer</h1>
         <div className="row">
-          <p className="simple-text">
+          <p className={classes.text}>
             Nice to see you here. Here you could find some things about me as a
             developer. Please, scroll down.
           </p>

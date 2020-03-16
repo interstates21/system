@@ -21,7 +21,7 @@
 @media only screen and (max-width: 1000px) {
   .toolchain {
     flex-direction: row;
-    width: 50vw;
+    width: 80vw;
     height: auto;
   }
 }

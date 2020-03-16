@@ -7,8 +7,34 @@
   justify-content: center;
 }
 
+.block {
+  /* width: 600px; */
+  text-align: center;
+  align-items: flex-start;
+  justify-content: center;
+  text-align: left;
+  display: flex;
+  margin-bottom: 100px;
+  flex-direction: column;
+}
+
+.text {
+  width: 70%;
+}
+
+.title {
+  color: #2f2f2f;
+}
+
 @media only screen and (max-width: 1000px) {
   .container {
     flex-direction: column;
+  }
+  .text {
+    padding: 0;
+    width: 100%;
+  }
+  .block {
+    text-align: center;
   }
 }
